@@ -39,6 +39,8 @@ dependencies:
   firebase_auth:
   firebase_cloud_messaging_interop:
   shared_preferences:
+  cloud_firestore:
+  sizer: ^2.0.15
 
 dev_dependencies:
   flutter_test:
@@ -63,9 +65,10 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/login.png
+    - assets/register.png
+#     - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
